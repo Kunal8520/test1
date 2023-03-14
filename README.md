@@ -1,6 +1,2 @@
-# test1jh
-jh
-jjj
-jj
-ickv
-ff
+SELECT Id,Ename,E.Compid,Make FROM Employee E INNER JOIN Computer C ON E.Compid=C.Compid  WHERE 
+Model='Precision' OR Model='Edge';
